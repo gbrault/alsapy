@@ -1,0 +1,7 @@
+swig -python alaspy.i
+gcc -c alsapy_wrap.c -I/usr/local/include/python3.7m
+gcc -shared alsapy_wrap.o -o _alsapy.so -lasound
+sudo ldconfig
+python3
+import alsapy
+alsapy.
