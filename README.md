@@ -1,5 +1,5 @@
 # alsapy
-swig POC to interface alsa
+swig POC to interface alsa with python
 
 I wanted to build a clean interface for ALSA with py, so swig was one of the natural way to go.
 It's far to be finished but it's quite simple to extend.
